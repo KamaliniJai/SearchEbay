@@ -15,15 +15,17 @@ This test suite has two tests and one test is made to fail purposefully for repo
 #### 1. Install node & npm
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-#### 3. Install webriver io
+#### 3. Open a terminal and Install webriver io
 ```sh
 npm install @wdio/cli
 ```
 #### 4. Install allure-commandline
 ```sh
-npm allure-commandline -g
+npm i allure-commandline -g
 ```
-#### 5. Run the tests
+#### 5. Run the tests from the main folder 
+CD to the folder where wdio.conf.js is located and run the below command
+
 ```sh
 npx wdio run wdio.conf.js
 ```
@@ -31,3 +33,7 @@ npx wdio run wdio.conf.js
 ```sh
 allure generate --clean allure-results && allure open
 ```
+
+#### Project public URL:
+
+https://github.com/KamaliniJai/SearchEbay
